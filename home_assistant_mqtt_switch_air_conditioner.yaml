@@ -1,0 +1,6 @@
+switch:
+  - platform: mqtt
+    command_topic: "topic"
+    name: 'Air Conditioner'
+    payload_on: "0x12181120"
+    payload_off: "0x12188020"
